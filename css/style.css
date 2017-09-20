@@ -1,0 +1,45 @@
+* { /*remove to get rid of all borders*/
+    outline: 1px solid black;
+}
+
+body {
+    background-color: #F2E9E4;
+    color: #3C3744;
+}
+
+header {
+    background-color: #BCD8C1;
+    height: 65px;
+}
+
+footer {
+    background-color: #3C3744;
+    color: #F2E9E4;
+}
+
+header p, footer p{
+    font-family: 'IM Fell Great Primer', serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+ul {
+    text-decoration: none;
+}
+
+ul li {
+    display: inline;
+    font-size: 1.5em;
+}
+
+#carousel, #signUp {
+    height: 400px;
+}
+
+#signUp {
+    background-color: #F0DFAD;
+}
+
+#map{
+    text-align: center;
+}
