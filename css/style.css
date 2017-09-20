@@ -32,8 +32,12 @@ ul li {
     font-size: 1.5em;
 }
 
+#carousel img {
+    width: 1280px;
+}
+
 #carousel, #signUp {
-    height: 400px;
+    min-height: 400px;
 }
 
 #signUp {
