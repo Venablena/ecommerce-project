@@ -1,104 +1,121 @@
 data = {
   "products": [
     {
-      "id": "123",
-      "name": "Heirloom Banana",
+      "id": "514",
+      "name": "Scorzonera",
       "price": 1.29,
-      "categories": ["fruit", "berry", "yellow", "tropical"],
-      "description": "An artisinal heirloom banana from Williamsburg",
-      "season": "summer",
-      "climateZones": ["10a", "10b", "10c"],
-      "annual": false,
-      "image": "https://unsplash.it/320/200"
-    },{
-      "id": "124",
-      "name": "Meggings vegan",
-      "price": 0.39,
-      "categories": ["pitchfork", "neutra", "wayfarers"],
-      "description": "Single-origin coffee squid hoodie raw denim",
+      "edibleParts": ["root", "leaf"],
+      "description": "Similar to Salsafy, but distinguished from it by the black colour of the skin and broader leaves.",
       "season": "spring",
-      "climateZones": ["8a", "8b", "7c"],
-      "annual": true,
+      "uses": ["table vegetable", "salad", "pickling"],
       "image": "https://unsplash.it/320/200"
     },{
-      "id": "125",
-      "name": "Vaporware iPhone",
-      "price": 4.99,
-      "categories": ["chicharrones", "small batch", "mumblecore", "cardigan"],
-      "description": "Activated charcoal waistcoat seitan cred semiotics",
+      "id": "511",
+      "name": "Salsafy",
+      "price": 1.05,
+      "edibleParts": ["root"],
+      "description": "A plant with a long, fleshy tap-root, 6-8 inches in length, and 1 inch or less in diameter, and with a yellowish and rather smooth skin. Also known as Vegetable Oyster.",
+      "season": "spring",
+      "uses": ["table vegetable", "salad", "pickling"],
+      "image": "https://unsplash.it/320/200"
+    },{
+      "id": "114",
+      "name": "Drumhead Cabbage",
+      "price": 0.49,
+      "edibleParts": ["leaf"],
+      "description": "A very distinct variety, with an extremely short stem. Head very hard and compact, rather broader than long, and somewhat bulging in the upper part.",
+      "season": "winter"
+      "uses": ["table vegetable", "salad", "pickling"],
+      "image": "https://unsplash.it/320/200"
+    },{
+      "id": "140",
+      "name": "Thousand-Headed Cabbage",
+      "price": 0.89,
+      "edibleParts": ["leaf"],
+      "description": "Forms a sort of large tuft or small bush, 3 to 4 ft. high. Unfortunately rather sensitive to cold.",
       "season": "fall",
-      "climateZones": ["4a", "4b", "4c", "5a", "5b"],
-      "annual": false,
-      "image": "https://unsplash.it/320/200"
-    },{
-      "id": "126",
-      "name": "Activated Charcoal Pabst",
-      "price": 11.29,
-      "categories": ["meggings", "selfies", "brunch", "cardigan"],
-      "description": "Hella lomo chartreuse wayfarers readymade whatever hot chicken",
-      "season": "summer",
-      "climateZones": ["4b", "4c", "5a", "5b"],
-      "annual": true,
-      "image": "https://unsplash.it/320/200"
-    },{
-      "id": "127",
-      "name": "Thundercats",
-      "price": 0.99,
-      "categories": ["intelligentsia", "heirloom", "lumbersexual", "artisan"],
-      "description": "Shabby chic taiyaki craft beer, vexillologist heirloom intelligentsia",
-      "season": "summer",
-      "climateZones": ["7b", "7c", "8a", "8b"],
-      "annual": true,
-      "image": "https://unsplash.it/320/200"
-    },{
-      "id": "128",
-      "name": "Unicorn pour-over",
-      "price": 0.29,
-      "categories": ["actually", "affogato", "meh", "helvetica"],
-      "description": "Adaptogen four loko cardigan, pitchfork art party neutra la croix.",
-      "season": "spring",
-      "climateZones": ["1c", "2a", "2b", "2c", "3a", "3b", "3c"],
-      "annual": true,
+      "uses": ["table vegetable", "salad", "pickling"],
       "image": "https://unsplash.it/320/200"
     },{
       "id": "129",
-      "name": "snackwave air plant",
-      "price": 3.05,
-      "categories": ["hella", "cred", "scenester", "kitsch"],
-      "description": "Vinyl flexitarian dreamcatcher fashion axe.",
-      "season": "fall",
-      "climateZones": ["4b", "4c", "5a", "5b"],
-      "annual": false,
-      "image": "https://unsplash.it/320/200"
-    },{
-      "id": "130",
-      "name": "Craft beer enamel pin",
-      "price": 10.99,
-      "categories": ["actually", "affogato", "activated charcoal", "sartorial"],
-      "description": "Shoreditch schlitz selfies gochujang. Irony air plant mumblecore",
+      "name": "Curled Winter Borecole Cabbage",
+      "price": 0.29,
+      "edibleParts": ["leaf"],
+      "description": "This seems to be an intermediate kind between the Green Curled Kale and the Curled Couve Tronchunda. AS far as we have seen, it posesses no special merit beyond its great degree of hardiness.",
       "season": "winter",
-      "climateZones": ["7c", "8a", "8b", "8c", "9a"],
-      "annual": true,
+      "uses": ["table vegetable"],
       "image": "https://unsplash.it/320/200"
     },{
-      "id": "131",
-      "name": "gentrify fashion",
-      "price": 3.29,
-      "categories": ["hella", "sartorial", "gastropub", "affogato"],
-      "description": "Venmo offal twee, cliche post-ironic swag kitsch. ",
-      "season": "spring",
-      "climateZones": ["6a", "6b", "6c", "7a", "7b"],
-      "annual": true,
+      "id": "516",
+      "name": "Sea-kale",
+      "price": 1.15,
+      "edibleParts": ["stem", "leaf"],
+      "description": "Leaves broad, thick, often twisted and of a very peculiar, glaucous-green colour. Stems stous, brnaching, from 20 inches to 2ft. high.",
+      "season": "winter",
+      "uses": ["table vegetable"],
       "image": "https://unsplash.it/320/200"
     },{
-      "id": "132",
-      "name": "bespoke heirloom coloring book ",
-      "price": 0.23,
-      "categories": ["aesthetic", "snackwave", "actually", "raclette"],
-      "description": "Chillwave +1 kogi, neutra slow-carb banjo humblebrag",
+      "id": "593",
+      "name": "Unicorn-plant",
+      "price": 3.05,
+      "edibleParts": ["fruit"],
+      "description": "Stem fleshy, 1 1/5 to 1 3/5 inch in diameter; leaves large, heart-shaped, of a grayish green colour, and somewaht hairy; fruit elongated, ovoid, curved, and terminating in a long hooked point.",
       "season": "summer",
-      "climateZones": ["9b", "9c", "10a", "10b"],
-      "annual": false,
+      "uses": ["pickling"],
+      "image": "https://unsplash.it/320/200"
+    },{
+      "id": "500",
+      "name": "Rampion",
+      "price": 0.99,
+      "edibleParts": ["root", "leaf"],
+      "description": "Root white, spindle-shaped, and nearly 1/2 inch in diameter for 2 inches or more of its length; a flesh white, very firm, but crisp; leaves sessile, rather numerous, of a long oval-spathulate shape.",
+      "season": "winter",
+      "uses": ["salad"],
+      "image": "https://unsplash.it/320/200"
+    },{
+      "id": "372",
+      "name": "Tree Onion",
+      "price": 0.85,
+      "edibleParts": ["fruit"],
+      "description": "Bulb ratehr flat, of a coppery colour. INstead of seeds, the stem produces at the extremity a cluster of bulblets, of a brownish-red colour, and about the size of Hazel-nuts.",
+      "season": "spring",
+      "uses": ["pickling", "table vegetable"],
+      "image": "https://unsplash.it/320/200"
+    },{
+      "id": "193",
+      "name": "Turnip-rooted Chervil",
+      "price": 0.23,
+      "edibleParts": ["root"],
+      "description": "Plant hairy, with leaves very much divided, spreading on the ground, and with violet-coloured leaf-stalks. Root very much swollen, almost like a short Carrot, but generally smaller, and ywllowish-white flesh.",
+      "season": "summer",
+      "uses": ["table vegetable"],
+      "image": "https://unsplash.it/320/200"
+    },{
+      "id": "157",
+      "name": "Prickly Cardoon",
+      "price": 0.13,
+      "edibleParts": ["stem", "leaves"],
+      "description": "The stem, which attains a height from 4 to 6 1/2 ft., is channelled and ofa whitish hue; the leaves are very large, pinnatifid, of a slightly grayish-green colour on the upper usrface and almost white underneath.",
+      "season": "summer",
+      "uses": ["table vegetable"],
+      "image": "https://unsplash.it/320/200"
+    },{
+      "id": "193",
+      "name": "Turnip-rooted Chervil",
+      "price": 0.23,
+      "edibleParts": ["root"],
+      "description": "Plant hairy, with leaves very much divided, spreading on the ground, and with violet-coloured leaf-stalks. Root very much swollen, almost like a short Carrot, but generally smaller, and ywllowish-white flesh.",
+      "season": "summer",
+      "uses": ["table vegetable"],
+      "image": "https://unsplash.it/320/200"
+    },{
+      "id": "153",
+      "name": "Monstrous Capsicum",
+      "price": 1.23,
+      "edibleParts": ["fruit"],
+      "description": "The seed-vessels are of an irregular ovoid or conical shape, swollen in the part next to the stalk and narrowed at the other end, usually more abruptly on one side thatn the other.",
+      "season": "summer",
+      "uses": ["table vegetable", "salad", "pickling"],
       "image": "https://unsplash.it/320/200"
     }
   ]
