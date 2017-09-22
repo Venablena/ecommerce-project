@@ -52,8 +52,7 @@ ul li, .navbar-text {
     font-size: 1.5em;
 }
 
-.navbar-text,
-a:hover {
+.navbar-text, a:hover {
   color: Brown;
 }
 
@@ -64,6 +63,10 @@ a:hover {
 
 .col-12 {
   padding: 0;
+  
+p.productDescription {
+  font-style: italic;
+  font-size: 1rem;
 }
 
 span.price {
