@@ -50,7 +50,7 @@ data = {
       "name": "Sea-kale",
       "price": 1.15,
       "edibleParts": ["stem", "leaf"],
-      "description": "Leaves broad, thick, often twisted and of a very peculiar, glaucous-green colour. Stems stous, brnaching, from 20 inches to 2ft. high.",
+      "description": "Leaves broad, thick, often twisted and of a very peculiar, glaucous-green colour. Stems stout, branching, from 20 inches to 2ft. high.",
       "season": "winter",
       "uses": ["table vegetable"],
       "image": "../img/img033.jpg"
@@ -71,13 +71,13 @@ data = {
       "description": "Root white, spindle-shaped, and nearly 1/2 inch in diameter for 2 inches or more of its length; a flesh white, very firm, but crisp; leaves sessile, rather numerous, of a long oval-spathulate shape.",
       "season": "winter",
       "uses": ["salad"],
-      "image": "../img/img034.jpg"
+      "image": "../img/img034 .jpg"
     },{
       "id": "372",
       "name": "Tree Onion",
       "price": 0.85,
       "edibleParts": ["fruit"],
-      "description": "Bulb ratehr flat, of a coppery colour. INstead of seeds, the stem produces at the extremity a cluster of bulblets, of a brownish-red colour, and about the size of Hazel-nuts.",
+      "description": "Bulb rather flat, of a coppery colour. Instead of seeds, the stem produces at the extremity a cluster of bulblets, of a brownish-red colour, and about the size of Hazel-nuts.",
       "season": "spring",
       "uses": ["pickling", "table vegetable"],
       "image": "../img/img024.jpg"
@@ -86,7 +86,7 @@ data = {
       "name": "Turnip-rooted Chervil",
       "price": 0.23,
       "edibleParts": ["root"],
-      "description": "Plant hairy, with leaves very much divided, spreading on the ground, and with violet-coloured leaf-stalks. Root very much swollen, almost like a short Carrot, but generally smaller, and ywllowish-white flesh.",
+      "description": "Plant hairy, with leaves very much divided, spreading on the ground, and with violet-coloured leaf-stalks. Root very much swollen, almost like a short Carrot, but generally smaller, and yellowish-white flesh.",
       "season": "summer",
       "uses": ["table vegetable"],
       "image": "../img/img025.jpg"
@@ -104,7 +104,7 @@ data = {
       "name": "Monstrous Capsicum",
       "price": 1.23,
       "edibleParts": ["fruit"],
-      "description": "The seed-vessels are of an irregular ovoid or conical shape, swollen in the part next to the stalk and narrowed at the other end, usually more abruptly on one side thatn the other.",
+      "description": "The seed-vessels are of an irregular ovoid or conical shape, swollen in the part next to the stalk and narrowed at the other end, usually more abruptly on one side than the other.",
       "season": "summer",
       "uses": ["table vegetable", "salad", "pickling"],
       "image": "../img/img027.jpg"
