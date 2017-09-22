@@ -5,23 +5,30 @@
 
 h1 {
   font-family: 'Diplomata SC', cursive;
+  background-color: #F2E9E4;
 }
 
-h2,
-h3,
-h4,
-h5 {
+h2, h3, h4, h5, header p, footer p, a {
   font-family: 'IM Fell Great Primer', serif;
+}
+
+h1, h2, h3 {
+  padding: 2rem 0;
+}
+
+h4 {
+  color: white;
+  background-color: Olive;
+  padding: .5rem;
+}
+
+h5 {
+  color: brown;
 }
 
 body {
     /*background-color: #F2E9E4;*/
     color: #3C3744;
-}
-
-header {
-    /*background-color: #BCD8C1;*/
-    /*height: 65px;*/
 }
 
 footer {
@@ -30,22 +37,33 @@ footer {
 }
 
 header p, footer p{
-    font-family: 'IM Fell Great Primer', serif;
-    font-size: 2em;
+    /*font-family: 'IM Fell Great Primer', serif;*/
+    font-size: 2rem;
     text-align: center;
 }
 
 ul {
     text-decoration: none;
+    margin-bottom: 0;
 }
 
-ul li {
+ul li, .navbar-text {
     display: inline;
     font-size: 1.5em;
 }
 
-p.productDescription {
-  font-style: italic;
+.navbar-text,
+a:hover {
+  color: Brown;
+}
+
+.nav-link {
+  display: inline;
+  color: initial;
+}
+
+.col-12 {
+  padding: 0;
 }
 
 span.price {
@@ -59,6 +77,14 @@ button.addToCart {
   position: relative;
   left: 0px;
   bottom: 15px;
+}
+
+.product-img {
+  max-width: 100%;
+  outline: 1px dashed grey;
+  outline-offset: 5px;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 #pointer-right,
@@ -87,6 +113,9 @@ button.addToCart {
 
 #signUp {
     background-color: #F0DFAD;
+    padding: 2rem;
+    font-size: 1.5rem;
+    margin: 2rem;
 }
 
 #map{
