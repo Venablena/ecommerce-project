@@ -17,14 +17,14 @@ data = {
       "description": "A plant with a long, fleshy tap-root, 6-8 inches in length, and 1 inch or less in diameter, and with a yellowish and rather smooth skin. Also known as Vegetable Oyster.",
       "season": "spring",
       "uses": ["table vegetable", "salad", "pickling"],
-      "image": "../img/img023"
+      "image": "../img/img023.jpg"
     },{
       "id": "114",
       "name": "Drumhead Cabbage",
       "price": 0.49,
       "edibleParts": ["leaf"],
       "description": "A very distinct variety, with an extremely short stem. Head very hard and compact, rather broader than long, and somewhat bulging in the upper part.",
-      "season": "winter"
+      "season": "winter",
       "uses": ["table vegetable", "salad", "pickling"],
       "image": "../img/img035.jpg"
     },{
@@ -71,7 +71,7 @@ data = {
       "description": "Root white, spindle-shaped, and nearly 1/2 inch in diameter for 2 inches or more of its length; a flesh white, very firm, but crisp; leaves sessile, rather numerous, of a long oval-spathulate shape.",
       "season": "winter",
       "uses": ["salad"],
-      "image": "../img/img034 .jpg"
+      "image": "../img/img034.jpg"
     },{
       "id": "372",
       "name": "Tree Onion",
