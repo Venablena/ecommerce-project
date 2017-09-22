@@ -36,6 +36,14 @@ footer {
     color: #F2E9E4;
 }
 
+footer h3 {
+    text-align: center;
+}
+
+footer a {
+    color: #F2E9E4;
+}
+
 header p, footer p{
     /*font-family: 'IM Fell Great Primer', serif;*/
     font-size: 2rem;
@@ -63,7 +71,8 @@ ul li, .navbar-text {
 
 .col-12 {
   padding: 0;
-  
+}  
+
 p.productDescription {
   font-style: italic;
   font-size: 1rem;
@@ -123,4 +132,52 @@ button.addToCart {
 
 #map{
     text-align: center;
+}
+
+.saleRow {
+    margin: 10px 0;
+}
+
+.saleRow .col-3{
+    padding-top: 7px;
+}
+
+.saleRow p {
+    text-align: left;
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+
+.saleRow span {
+    font-size: 0.8em;
+    margin-right: 10px;
+}
+
+.crossedOut {
+    text-decoration: line-through;
+}
+
+.saleImg {
+    background-color: #FFF;
+    width: 40px;
+    height: 40px;
+}
+
+#infoCol .row{
+    margin: 20px 0;
+}
+
+.plantNews p{
+    text-align: left;
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+
+.plantNews span{
+    text-align: left;
+    font-size: 0.8em;
+}
+
+.plantNews div{
+    margin-bottom: 10px;
 }
