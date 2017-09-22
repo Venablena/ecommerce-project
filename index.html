@@ -4,7 +4,7 @@
     <title>eCommerce Site</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cardo|IM+Fell+Great+Primer|Diplomata+SC" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
@@ -14,37 +14,52 @@
 <body>
     <header>
         <div class='container-fluid'>
-            <div class='row'>
-                <div class='col-3'>
-                    <p>ECOMMERCE</p>
-                </div>
-                <div class='col-6'>
-                    <ul>
-                        <li>MEN</li>
-                        <li>WOMEN</li>
-                        <li>ACCESSORIES</li>
-                        <li>SALE</li>
-                    </ul>
-                </div>
-                <div class='col-3'>
-                    <p><i class="fa fa-shopping-cart" aria-hidden="true"></i> Shopping Cart <i class="fa fa-shopping-cart" aria-hidden="true"></i></p>
-                </div>
+            <div class='row text-center'>
+              <div class='col-12'>
+                <h1>The Victorian Garden Shoppe</h1>
+              </div>
             </div>
         </div>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-1' id="pointer-left">
+                  <!-- placeholder for an image -->
+                </div>
+                <div class='col'>
+                  <nav class="navbar">
+                    <ul>
+                        <li class="nav-item">
+                          <a class="nav-link"href="#">Root Vegetables</a></li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Leafy Greens</a></li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Others</a></li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">IN SEASON</a></li>
+                    </ul>
+                    <span class="navbar-text"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Shopping Cart <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    </span>
+                  </nav>
+                </div>
+                <div class='col-1' id="pointer-right">
+                  <!-- placeholder for an image -->
+                </div>
+            </div>
+          </div>
     </header>
     <div class='container-fluid'>
-        <div class='row' >
+        <div class='row justify-content-center' >
             <!-- <div class='col-12' id="carousel" class='carousel slide' data-ride="carousel"> -->
               <div id="carousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner" role="listbox">
                   <div class="carousel-item active">
-                    <img class="d-block img-fluid" src="http://unsplash.it/1000/400?image=1025&gravity=north" alt="First slide">
+                    <img class="d-block img-fluid" src="../img/hero1.jpg" alt="First slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block img-fluid" src="http://unsplash.it/1000/400?image=1062&gravity=north" width="100%" alt="Second slide">
+                    <img class="d-block img-fluid" src="../img/hero2.jpg" width="100%" alt="Second slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block img-fluid" src="http://unsplash.it/1000/400?image=837&gravity=north" width="100%" alt="Third slide">
+                    <img class="d-block img-fluid" src="../img/hero4.jpg" width="100%" alt="Third slide">
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
@@ -58,35 +73,49 @@
               </div>
             <!-- </div> -->
         </div>
+      </div>
+      <div class='container'>
         <div class='row'>
             <div class='col-1'>
                 <!-- empty left col -->
             </div>
             <div class='col-10'>
-                <div class='row'>
+                <div class='row text-center'>
                     <div class='col-12'>
-                        Products
+                        <h2>OUR PRODUCTS</h2>
                     </div>
                 </div>
                 <div class='row' id="products-section">
                     <div class='col-4'>
-                        Product 1
+                        <h4>Champion This Month</h4>
+                        <h5>Rampion</h5>
+                        <img class="product-img" src="../img/img022.jpg">
+                        <p>Root white, spindle-shaped, and nearly 1/2 inch in diameter for 2 inches or more of its length; a flesh white, very firm, but crisp; leaves sessile, rather numerous, of a long oval-spathulate shape.</p>
                     </div>
                     <div class='col-4'>
-                        Product 2
+                        <h4>Daily Classic</h4>
+                        <h5>Drumhead Cabbage</h5>
+                        <img class="product-img" src="../img/img035.jpg">
+                        <p>A very distinct variety, with an extremely short stem. Head very hard and compact, rather broader than long, and somewhat bulging in the upper part.</p>
                     </div>
                     <div class='col-4'>
-                        Product 3
+                        <h4>New and Exotic</h4>
+                        <h5>Monstrous Capsicum</h5>
+                        <img class="product-img" src="../img/img027.jpg">
+                        <p>The seed-vessels are of an irregular ovoid or conical shape, swollen in the part next to the stalk and narrowed at the other end, usually more abruptly on one side than the other.</p>
                     </div>
                 </div>
-            </div>
-            <div class='col-1'>
-                <!-- empty right col -->
             </div>
         </div>
         <div class='row'  id='signUp'>
             <div class='col-12'>
-                Sign Up
+              <h3>Sign Up</h3>
+            </div>
+            <div class='col-10'>
+              <p>Support our shoppe and subscribe to exciting recipe ideas. We will only send you delicious things, promise!</p>
+            </div>
+            <div class='col-2'>
+              <img class="product-img" src="../img/victoria.gif" alt="">
             </div>
         </div>
     </div>
@@ -94,11 +123,11 @@
         <div class='container-fluid'>
             <div class='row'>
                 <div class='col-3' id='map'>
-                    <p>Visit Us</p>
+                    <h3>Visit Us</h3>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2690.3979778720604!2d-122.33599028410208!3d47.598950679184085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906aa4c2d37a93%3A0xc82c719d1795d092!2sGalvanize!5e0!3m2!1sen!2sus!4v1505939378845" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
                 <div class='col-3'>
-                    <p>Current Sales</p>
+                    <h3>Current Sales</h3>
                     <div class='row'>
                         <div class='col-3'>
                             Sale 1 pic
@@ -133,7 +162,7 @@
                     </div>
                 </div>
                 <div class='col-3'>
-                    <p>Other Info</p>
+                    <h3>Other Info</h3>
                     <div class='row'>
                         <div class='col-12'>
                             Info 1 description
@@ -156,7 +185,7 @@
                     </div>
                 </div>
                 <div class='col-3'>
-                    <p>Plant News</p>
+                    <h3>Plant News</h3>
                     <div class='row'>
                         <div class='col-12'>
                             News 1 description
@@ -179,7 +208,7 @@
                     </div>
                 </div>
             </div>
-            <div class='row'>
+            <div class='row text-center'>
                 <div class='col-12'>
                     Copyright © 2017 ECOMMERCE All Rights Reserved
                 </div>
