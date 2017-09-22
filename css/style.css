@@ -1,5 +1,5 @@
 * { /*remove to get rid of all borders*/
-    outline: 1px solid black;
+    /*outline: 1px solid black;*/
     font-family: 'Cardo', serif;
 }
 
@@ -15,12 +15,12 @@ h5 {
 }
 
 body {
-    background-color: #F2E9E4;
+    /*background-color: #F2E9E4;*/
     color: #3C3744;
 }
 
 header {
-    background-color: #BCD8C1;
+    /*background-color: #BCD8C1;*/
     /*height: 65px;*/
 }
 
@@ -59,6 +59,22 @@ button.addToCart {
   position: relative;
   left: 0px;
   bottom: 15px;
+}
+
+#pointer-right,
+#pointer-left {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#pointer-left {
+  background-image: url('../img/hand-left.jpg');
+  background-position: right;
+}
+
+#pointer-right {
+  background-image: url('../img/hand-right.jpg');
+  background-position: left;
 }
 
 #carousel img {
