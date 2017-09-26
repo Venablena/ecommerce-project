@@ -5,7 +5,7 @@
 
 h1 {
   font-family: 'Diplomata SC', cursive;
-  background-color: #F2E9E4;
+  background-color: #F5CBA7;
 }
 
 h2, h3, h4, h5, header p, footer p, a {
@@ -71,18 +71,19 @@ ul li, .navbar-text {
 
 .col-12 {
   padding: 0;
-}  
+}
 
-p.productDescription {
+/*p.productDescription {
   font-style: italic;
   font-size: 1rem;
-}
+}*/
 
 span.price {
   font-weight: bold;
-  position: absolute;
-  right: 15px;
-  bottom: 15px;
+  align-self: flex-end;
+  font-size: 1.5rem;
+  color: Brown;
+  float: right;
 }
 
 button.addToCart {
@@ -90,11 +91,14 @@ button.addToCart {
 }
 
 .product-img {
+  display: block;
   max-width: 100%;
-  outline: 1px dashed grey;
-  outline-offset: 5px;
+  border: 1px dashed grey;
+  padding: 10px;
   margin-top: 0.5rem;
   margin-bottom: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #pointer-right,
@@ -128,8 +132,8 @@ button.addToCart {
     margin: 2rem;
 }
 
-#map{
-    text-align: center;
+iframe {
+  max-width: 100%;
 }
 
 .saleRow {
@@ -193,3 +197,14 @@ button.addToCart {
 .hidden {
   display: none;
 }
+
+/*Made the button into an overlay that covers the entire product image but it's shivering so disabled it for now
+
+.addToCart {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  background-color: LightGrey;
+  opacity: 0.7;
+  box-shadow: none !important;
+}*/

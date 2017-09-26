@@ -13,6 +13,7 @@ data.products.forEach((item, index)=> {
 
   const image = document.createElement('img')
   image.src = data.products[index].image
+  image.className = 'product-img'
   productItem.appendChild(image)
 
   const description = document.createElement('p')

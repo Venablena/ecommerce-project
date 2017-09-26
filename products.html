@@ -4,60 +4,76 @@
     <title>eCommerce Site</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cardo|IM+Fell+Great+Primer|Diplomata+SC" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <div class='container-fluid'>
-            <div class='row'>
-                <div class='col-3'>
-                    <p>ECOMMERCE</p>
-                </div>
-                <div class='col-6'>
-                    <ul>
-                        <li>MEN</li>
-                        <li>WOMEN</li>
-                        <li>ACCESSORIES</li>
-                        <li>SALE</li>
-                    </ul>
-                </div>
-                <div class='col-3'>
-                    <p><i class="fa fa-shopping-cart" aria-hidden="true"></i> Shopping Cart <i class="fa fa-shopping-cart" aria-hidden="true"></i></p>
-                </div>
+  <header>
+      <div class='container-fluid'>
+          <div class='row text-center'>
+            <div class='col-12'>
+              <h1>The Victorian Garden Shoppe</h1>
             </div>
+          </div>
+      </div>
+      <div class='container'>
+          <div class='row'>
+              <div class='col-1' id="pointer-left">
+                <!-- placeholder for an image -->
+              </div>
+              <div class='col'>
+                <nav class="navbar">
+                  <ul>
+                      <li class="nav-item">
+                        <a class="nav-link"href="#">Root Vegetables</a></li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Leafy Greens</a></li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Others</a></li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">IN SEASON</a></li>
+                  </ul>
+                  <span class="navbar-text"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Shopping Cart <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                  </span>
+                </nav>
+              </div>
+              <div class='col-1' id="pointer-right">
+                <!-- placeholder for an image -->
+              </div>
+          </div>
         </div>
-    </header>
-    <div class='container-fluid'>
+  </header>
+    <div class='container'>
         <div class='row'>
-            <div class='col-1'>
-                <!-- empty left col -->
-            </div>
-            <div class='col-10'>
-                <div class='row'>
-                    <div class='col-12'>
-                        Shop All Products
+            <!-- <div class='col-1'>
+            </div> -->
+            <!-- <div class='col-10'>
+                <div class='row'> -->
+                    <div class='col-12 text-center'>
+                        <h4>Products</h4>
                     </div>
                 </div>
                 <div class='row'>
                     <div class='col-3' id="product-filters">
-                        Menu
+                      <ul>
+                        <li>Shop All Products</li>
+                        <li>Menu</li>
+                      </ul>
                     </div>
                     <div class='col-9' id="product-list">
-                        <h4>Products</h4>
-                    </div>
+                   </div>
                 </div>
-            </div>
-            <div class='col-1'>
-                <!-- empty right col -->
-            </div>
+            <!-- </div> -->
+            <!-- <div class='col-1'>
+            </div> -->
         </div>
     </div>
     <footer>
         <div class='container-fluid'>
+          <div class="container">
             <div class='row'>
-                <div class='col-3' id='map'>
+                <div class='col-3 text-center'>
                     <h3>Visit Us</h3>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2690.3979778720604!2d-122.33599028410208!3d47.598950679184085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906aa4c2d37a93%3A0xc82c719d1795d092!2sGalvanize!5e0!3m2!1sen!2sus!4v1505939378845" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
@@ -156,6 +172,7 @@
                     Copyright © 2017 ECOMMERCE All Rights Reserved
                 </div>
             </div>
+          </div>
         </div>
     </footer>
     <script src="https://use.fontawesome.com/83acd4eff5.js"></script>

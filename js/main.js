@@ -28,17 +28,18 @@ randomThree.forEach((item, index)=> {
 
   const image = document.createElement('img')
   image.id = 'product'+index
-  image.src = productArray[index].image
+  image.src = item.image
+  image.className = 'product-img'
   productDivs[index].appendChild(image)
 
   const description = document.createElement('p')
   description.className = "productDescription"
-  description.textContent = productArray[index].description
+  description.textContent = item.description
   productDivs[index].appendChild(description)
 
   const price = document.createElement('span')
   price.className = 'price'
-  price.textContent = "$" + productArray[index].price
+  price.textContent = "$" + item.price
   productDivs[index].appendChild(price)
 
   document.getElementById(image.id).addEventListener('mouseenter',function(){
