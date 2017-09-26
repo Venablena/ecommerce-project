@@ -20,7 +20,14 @@ randomThree.forEach((item, index)=> {
   header.textContent = item.name
   productDivs[index].appendChild(header)
 
+  const addToCart = document.createElement('button')
+  addToCart.classList.add('addToCart')
+  addToCart.classList.add('hidden')
+  addToCart.innerHTML = '<i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart'
+  productDivs[index].appendChild(addToCart)
+
   const image = document.createElement('img')
+  image.id = 'product'+index
   image.src = productArray[index].image
   productDivs[index].appendChild(image)
 
@@ -34,8 +41,21 @@ randomThree.forEach((item, index)=> {
   price.textContent = "$" + productArray[index].price
   productDivs[index].appendChild(price)
 
-  const addToCart = document.createElement('button')
-  addToCart.className = 'addToCart'
-  addToCart.innerHTML = '<i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to Cart'
-  productDivs[index].appendChild(addToCart)
+  document.getElementById(image.id).addEventListener('mouseenter',function(){
+    addToCart.classList.remove('hidden')
+  })
+
+  document.getElementById(image.id).addEventListener('mouseleave',function(){
+    addToCart.classList.add('hidden')
+  })
 })
+
+function validateEmail() {
+  let email = document.getElementById('emailInput').value
+  var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+  if (re.test(email)){
+    document.getElementById('emailInput').value = "Thank you!  We've signed you up for our newsletter.  :)"
+  } else{
+    alert('Please enter an email address!')
+  }
+}
