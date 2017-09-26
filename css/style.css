@@ -132,8 +132,8 @@ button.addToCart {
     margin: 2rem;
 }
 
-#map{
-    text-align: center;
+iframe {
+  max-width: 100%;
 }
 
 .saleRow {
@@ -197,3 +197,14 @@ button.addToCart {
 .hidden {
   display: none;
 }
+
+/*Made the button into an overlay that covers the entire product image but it's shivering so disabled it for now
+
+.addToCart {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  background-color: LightGrey;
+  opacity: 0.7;
+  box-shadow: none !important;
+}*/

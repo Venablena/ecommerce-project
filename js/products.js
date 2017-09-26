@@ -95,7 +95,7 @@ data = {
       "name": "Prickly Cardoon",
       "price": 0.13,
       "edibleParts": ["stem", "leaves"],
-      "description": "The stem, which attains a height from 4 to 6 1/2 ft., is channelled and ofa whitish hue; the leaves are very large, pinnatifid, of a slightly grayish-green colour on the upper usrface and almost white underneath.",
+      "description": "The stem, which attains a height from 4 to 6 1/2 ft., is channelled and ofa whitish hue; the leaves are very large, pinnatifid, of a slightly grayish-green colour on the upper surface and almost white underneath.",
       "season": "summer",
       "uses": ["table vegetable"],
       "image": "../img/img026.jpg"
