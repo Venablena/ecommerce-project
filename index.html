@@ -118,7 +118,10 @@
               <img class="product-img" src="./img/victoria.gif" alt="">
             </div>
             <div class='col-12'>
-                <input type='email' name='signUpEmail' value='Sign up here!  Enter your email address.'>
+                <form id='emailSignUp'>
+                    <input type='email' name='signUpEmail' value='Sign up here!  Type in your email address and submit!' id='emailInput'>
+                    <input type='button' value='Submit' id='emailSubmit' onclick='validateEmail()'>
+                </form>
             </div>
         </div>
     </div>
