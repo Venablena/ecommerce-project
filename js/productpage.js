@@ -109,18 +109,18 @@ function displayProducts(products) {
     productItem.appendChild(header)
 
     const image = document.createElement('img')
-    image.src = data.products[index].image
+    image.src = item.image
     image.className = 'product-img'
     productItem.appendChild(image)
 
     const description = document.createElement('p')
     description.className = "productDescription"
-    description.textContent = data.products[index].description
+    description.textContent = item.description
     productItem.appendChild(description)
 
     const price = document.createElement('span')
     price.className = 'price'
-    price.textContent = "$" + data.products[index].price
+    price.textContent = "$" + item.price
     productItem.appendChild(price)
 
     const addToCart = document.createElement('button')
