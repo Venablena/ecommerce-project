@@ -194,8 +194,16 @@ iframe {
     border-radius: 10px;
 }
 
+ul.block li{
+  display: block;
+}
+
 .hidden {
   display: none;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 /*Made the button into an overlay that covers the entire product image but it's shivering so disabled it for now
