@@ -1,5 +1,3 @@
-console.log('sanity check!')
-
 const productListSection = document.getElementById('product-list')
 const productList = document.createElement('UL')
 const allProducts = data.products
@@ -9,93 +7,55 @@ document.getElementById('show-all').addEventListener('click', function(e) {
   displayProducts(allProducts)
 })
 
-document.getElementById('filter-price-xs').addEventListener('click', function(e) {
-  const filteredProducts = allProducts.filter(function(item) {
-    return (item.price < 0.25)
-  })
-  console.log(filteredProducts)
-  displayProducts(filteredProducts)
-})
-document.getElementById('filter-price-s').addEventListener('click', function(e) {
-  const filteredProducts = allProducts.filter(function(item) {
-    return ((item.price >= 0.25) && (item.price < 0.50))
-  })
-  console.log(filteredProducts)
-  displayProducts(filteredProducts)
-})
-document.getElementById('filter-price-m').addEventListener('click', function(e) {
-  const filteredProducts = allProducts.filter(function(item) {
-    return ((item.price >= 0.50) && (item.price < 1.00))
-  })
-  console.log(filteredProducts)
-  displayProducts(filteredProducts)
-})
-document.getElementById('filter-price-l').addEventListener('click', function(e) {
-  const filteredProducts = allProducts.filter(function(item) {
-    return (item.price >= 1.00)
-  })
-  console.log(filteredProducts)
-  displayProducts(filteredProducts)
-})
+const allFilters = document.querySelectorAll('.filter')
+allFilters.forEach(element => {
+  element.addEventListener('click', function(e) {
+    let filteredProducts = []
+    switch (element.id) {
+      case "filter-price-xs":
+        filteredProducts = allProducts.filter(item => item.price < 0.25)
+        break;
+      case "filter-price-s":
+        filteredProducts = allProducts.filter(item => ((item.price >= 0.25) && (item.price < 0.50)))
+        break;
+      case "filter-price-m":
+        filteredProducts = allProducts.filter(item => ((item.price >= 0.50) && (item.price < 1.00)))
+        break;
+      case "filter-price-l":
+        filteredProducts = allProducts.filter(item => (item.price >= 1.00))
+        break;
+      case "filter-edible-leaves":
+        filteredProducts = allProducts.filter(item => (item.edibleParts.includes('leaf')))
+        break;
+      case "filter-edible-roots":
+        filteredProducts = allProducts.filter(item => (item.edibleParts.includes('root')))
+        break;
+      case "filter-edible-stem":
+        filteredProducts = allProducts.filter(item => (item.edibleParts.includes('stem')))
+        break;
+      case "filter-edible-fruit":
+        filteredProducts = allProducts.filter(item => (item.edibleParts.includes('fruit')))
+        break;
+      case "filter-season-winter":
+        filteredProducts = allProducts.filter(item => (item.season === 'winter'))
+        break;
+      case "filter-season-spring":
+        filteredProducts = allProducts.filter(item => (item.season === 'spring'))
+        break;
+      case "filter-season-summer":
+        filteredProducts = allProducts.filter(item => (item.season === 'summer'))
+        break;
+      case "filter-season-fall":
+        filteredProducts = allProducts.filter(item => (item.season === 'fall'))
+        break;
+      default:
+        filteredProducts = allProducts
+        break
 
-document.getElementById('filter-edible-leaves').addEventListener('click', function(e) {
-  const filteredProducts = allProducts.filter(function(item) {
-    return (item.edibleParts.includes('leaf'))
+    }
+    displayProducts(filteredProducts)
   })
-  console.log(filteredProducts)
-  displayProducts(filteredProducts)
 })
-document.getElementById('filter-edible-roots').addEventListener('click', function(e) {
-  const filteredProducts = allProducts.filter(function(item) {
-    return (item.edibleParts.includes('root'))
-  })
-  console.log(filteredProducts)
-  displayProducts(filteredProducts)
-})
-document.getElementById('filter-edible-stem').addEventListener('click', function(e) {
-  const filteredProducts = allProducts.filter(function(item) {
-    return (item.edibleParts.includes('stem'))
-  })
-  console.log(filteredProducts)
-  displayProducts(filteredProducts)
-})
-document.getElementById('filter-edible-fruit').addEventListener('click', function(e) {
-  const filteredProducts = allProducts.filter(function(item) {
-    return (item.edibleParts.includes('fruit'))
-  })
-  console.log(filteredProducts)
-  displayProducts(filteredProducts)
-})
-
-document.getElementById('filter-season-winter').addEventListener('click', function(e) {
-  const filteredProducts = allProducts.filter(function(item) {
-    return (item.season === 'winter')
-  })
-  console.log(filteredProducts)
-  displayProducts(filteredProducts)
-})
-document.getElementById('filter-season-spring').addEventListener('click', function(e) {
-  const filteredProducts = allProducts.filter(function(item) {
-    return (item.season === 'spring')
-  })
-  console.log(filteredProducts)
-  displayProducts(filteredProducts)
-})
-document.getElementById('filter-season-summer').addEventListener('click', function(e) {
-  const filteredProducts = allProducts.filter(function(item) {
-    return (item.season === 'summer')
-  })
-  console.log(filteredProducts)
-  displayProducts(filteredProducts)
-})
-document.getElementById('filter-season-fall').addEventListener('click', function(e) {
-  const filteredProducts = allProducts.filter(function(item) {
-    return (item.season === 'fall')
-  })
-  console.log(filteredProducts)
-  displayProducts(filteredProducts)
-})
-
 
 // Display products
 function displayProducts(products) {
