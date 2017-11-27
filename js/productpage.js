@@ -90,10 +90,10 @@ function displayProducts(products) {
 
     productList.appendChild(productItem)
 
-    productItem.addEventListener('mouseenter', function(e) {
+    productItem.addEventListener('mouseenter', function() {
       addToCart.classList.remove('hidden')
     })
-    productItem.addEventListener('mouseleave', function(e) {
+    productItem.addEventListener('mouseleave', function() {
       addToCart.classList.add('hidden')
     })
   })
